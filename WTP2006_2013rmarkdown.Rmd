@@ -10,7 +10,7 @@ output:
 ```{r}
 install.packages("readxl", repos = "http://cran.us.r-project.org")
 library(readxl)
-WTP2006_2013 <- read_excel("C:/Users/willi/Downloads/WTP2006_2013.xlsx")
+WTP2006_2013 <- read_excel("...")
 str(WTP2006_2013)
 WTP2006_2013 <- WTP2006_2013[-1:-1,]
 View(WTP2006_2013)
